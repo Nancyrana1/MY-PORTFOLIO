@@ -233,7 +233,7 @@ from intelligent backends to interfaces people actually enjoy using.
                 <div className="absolute -inset-3 rounded-full border-2 border-dashed border-pink-200 dark:border-rose-800/50 animate-spin" style={{ animationDuration: '20s' }} />
                 <div className="absolute -inset-6 rounded-full border border-pink-100 dark:border-rose-900/30 opacity-60" />
                 <img
-                  src="public/pro.jpeg"
+                  src="/pro.jpeg"
                   alt={`${personalInfo.name} portfolio photo`}
                   className="w-full h-full object-cover"
                   loading="eager"
