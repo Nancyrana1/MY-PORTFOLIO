@@ -86,10 +86,10 @@ const Footer = () => {
               </div>
 
               {/* Availability */}
-              <div className="mt-5 inline-flex items-center gap-2 px-4 py-2 rounded-full border border-rose-900/40 bg-rose-900/10">
+              {/* <div className="mt-5 inline-flex items-center gap-2 px-4 py-2 rounded-full border border-rose-900/40 bg-rose-900/10">
                 <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse" />
                 <span className="text-xs text-gray-300">Available for opportunities</span>
-              </div>
+              </div> */}
             </div>
           </div>
 
@@ -99,7 +99,9 @@ const Footer = () => {
               © {currentYear} {personalInfo.name}. All rights reserved.
             </p>
             <p className="text-gray-600 text-xs flex items-center gap-1.5">
-              Made with <Heart size={12} className="text-rose-500" fill="currentColor" /> and lots of ☕
+              Alot Code {" "}
+              {/* <Heart size={12} className="text-rose-500" fill="currentColor" />  */}
+              and lots of ☕
             </p>
           </div>
         </div>

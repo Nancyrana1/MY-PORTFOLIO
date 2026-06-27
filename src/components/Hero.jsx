@@ -6,9 +6,9 @@ import { useState, useEffect } from 'react';
 
 
 const roles = [
-  "Full Stack Developer 💻",
   "AI/ML Engineer 🤖",
   "Data Science Student 📊",
+  "Software Developer 💻",
   "Problem Solver 🚀",
 ];
 
@@ -135,10 +135,10 @@ const Hero = () => {
           <div className="space-y-7 order-2 md:order-1">
 
             {/* Welcome badge */}
-            <div className="fade-up delay-1 inline-flex items-center gap-2 bg-white/70 dark:bg-rose-900/30 backdrop-blur-sm border border-pink-200 dark:border-rose-800/60 text-rose-500 dark:text-rose-300 px-4 py-2 rounded-full text-sm font-semibold shadow-sm">
+            {/* <div className="fade-up delay-1 inline-flex items-center gap-2 bg-white/70 dark:bg-rose-900/30 backdrop-blur-sm border border-pink-200 dark:border-rose-800/60 text-rose-500 dark:text-rose-300 px-4 py-2 rounded-full text-sm font-semibold shadow-sm">
               <Heart size={3} fill="currentColor" />
               Open to Internships & Opportunities
-            </div>
+            </div> */}
 
             {/* Name */}
             <div className="fade-up delay-2 space-y-2">
@@ -233,7 +233,7 @@ from intelligent backends to interfaces people actually enjoy using.
                 <div className="absolute -inset-3 rounded-full border-2 border-dashed border-pink-200 dark:border-rose-800/50 animate-spin" style={{ animationDuration: '20s' }} />
                 <div className="absolute -inset-6 rounded-full border border-pink-100 dark:border-rose-900/30 opacity-60" />
                 <img
-                  src="/pro.jpeg"
+                  src="/logo_new.jpeg"
                   alt={`${personalInfo.name} portfolio photo`}
                   className="w-full h-full object-cover"
                   loading="eager"

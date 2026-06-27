@@ -1,9 +1,9 @@
 export const projects = [
   {
     id: 1,
-    title: "Fit-Revolution",
-    description: "Full-stack YouTube comment intelligence platform with real-time NLP analytics and audience sentiment tracking. Built with React, FastAPI, and scikit-learn for scalable AI-powered insights.",
-    techStack: ["React", "FastAPI", "Tailwind CSS", "NLTK", "Recharts","Pytorch","LSTM/BiLSTM","MuRIL","BERT","PostgreSQL","Socket.IO","AWS"],
+    title: "CommentIQ — YouTube Comment Intelligence",
+    description: "Full-stack YouTube comment intelligence platform with real-time NLP analytics and audience sentiment tracking. Classifies comments across sentiment, toxicity, and engagement using a tiered ML pipeline (TF-IDF → BiLSTM → BERT), with native support for Hindi/Hinglish and emoji-aware feature engineering for Indian creator audiences.",
+    techStack: ["React", "FastAPI", "Tailwind CSS", "scikit-learn", "PyTorch", "LSTM/BiLSTM", "MuRIL", "DistilBERT", "PostgreSQL", "Redis", "Celery", "YouTube Data API", "Socket.IO", "AWS"],
     image: "/commentIQ.png",
     github: "https://github.com/Nancyrana1/Comment-Category-Project",
     live: "https://github.com/Nancyrana1/Comment-Category-Project"

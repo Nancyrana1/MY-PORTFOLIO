@@ -60,8 +60,10 @@ const About = () => {
             practical ML and data insights.
           </p>
           <p className="text-gray-600 dark:text-gray-300 leading-relaxed">
-            Through internships at <span className="font-semibold text-rose-500">DATATROOPS</span> and{" "}
-            <span className="font-semibold text-rose-500">BlueStock</span>, and open‑source programs like{" "}
+            Through internships {" "}
+            {/* at <span className="font-semibold text-rose-500">DATATROOPS</span> and{" "}
+            <span className="font-semibold text-rose-500">BlueStock</span>,  */}
+            and open‑source programs like{" "}
             <span className="font-semibold text-rose-500">GSSoC</span> and{" "}
             <span className="font-semibold text-rose-500">SheFi</span>, I've learned to ship features fast,
             collaborate in teams, and keep quality high.
@@ -70,7 +72,7 @@ const About = () => {
           {/* Fun facts strip */}
           <div className="grid grid-cols-3 gap-3 pt-4">
             {[
-              { emoji: '🚀', label: 'Projects Built', val: '10+' },
+              { emoji: '🚀', label: 'Projects Built', val: '4+' },
               { emoji: '🌍', label: 'Open Source', val: 'GSSoC' },
               { emoji: '⚡', label: 'Internships', val: '2+' },
             ].map((fact) => (
