@@ -71,5 +71,5 @@ Contact
 Nancy Rana
 Email: nancyrana0341@gmail.com
 Location: New Delhi, India
-LinkedIn: your-linkedin-url
+LinkedIn: https://www.linkedin.com/in/nancy-rana-2441942a4/
 GitHub: https://github.com/Nancyrana1
